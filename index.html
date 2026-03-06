@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BibleScroll – Immerse Yourself in Scripture Every Day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BibleScrol – Immerse Yourself in Scripture Every Day</title>
 
-  <meta name="description" content="BibleScroll helps you grow spiritually through short Bible videos, guided reading plans, and a supportive faith community—all designed for daily life."/>
+  <meta name="description"
+    content="BibleScrol helps you grow spiritually through short Bible videos, guided reading plans, and a supportive faith community—all designed for daily life." />
   <meta name="theme-color" content="#0d1117">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
 
   <style>
     :root {
@@ -20,10 +24,14 @@
       --primary: #d4af37;
       --text: #e6edf3;
       --text-muted: #8b949e;
-      --border: rgba(240,246,252,0.1);
+      --border: rgba(240, 246, 252, 0.1);
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
       font-family: 'Roboto', system-ui, sans-serif;
@@ -57,13 +65,13 @@
       align-items: center;
       text-align: center;
       padding: 120px 0 80px;
-      background: linear-gradient(to bottom, rgba(13,17,23,0.85), var(--bg));
+      background: linear-gradient(to bottom, rgba(13, 17, 23, 0.85), var(--bg));
     }
 
     .logo-img {
       width: 180px;
       margin-bottom: 40px;
-      filter: drop-shadow(0 10px 30px rgba(212,175,55,0.35));
+      filter: drop-shadow(0 10px 30px rgba(212, 175, 55, 0.35));
     }
 
     h1 {
@@ -117,7 +125,7 @@
 
     .store-button:hover {
       transform: translateY(-4px);
-      box-shadow: 0 20px 50px rgba(212,175,55,0.25);
+      box-shadow: 0 20px 50px rgba(212, 175, 55, 0.25);
     }
 
     /* ================= SECTIONS ================= */
@@ -149,7 +157,7 @@
 
     .feature-card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 30px 80px rgba(0,0,0,0.35);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
     }
 
     .feature-icon {
@@ -168,7 +176,7 @@
 
     /* ================= TESTIMONIALS ================= */
     .testimonials {
-      background: rgba(30,41,59,0.35);
+      background: rgba(30, 41, 59, 0.35);
       padding: 140px 0;
     }
 
@@ -199,7 +207,7 @@
     .final-cta {
       text-align: center;
       padding: 140px 0;
-      background: linear-gradient(to bottom, var(--bg), rgba(212,175,55,0.06));
+      background: linear-gradient(to bottom, var(--bg), rgba(212, 175, 55, 0.06));
     }
 
     footer {
@@ -221,134 +229,150 @@
     }
 
     @media (max-width: 768px) {
-      .hero-buttons { flex-direction: column; }
-      .section { padding: 100px 0; }
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .section {
+        padding: 100px 0;
+      }
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <div class="container reveal">
-    <img src="logo.png" class="logo-img" alt="BibleScroll Logo">
-    <h1>BibleScroll</h1>
+  <header>
+    <div class="container reveal">
+      <img src="logo.png" class="logo-img" alt="BibleScrol Logo">
+      <h1>BibleScrol</h1>
 
-    <p class="tagline">
-      Experience Scripture in a new way—through daily readings, short video teachings,
-      and a global faith community designed to help you grow closer to God.
-    </p>
+      <p class="tagline">
+        Experience Scripture in a new way—through daily readings, short video teachings,
+        and a global faith community designed to help you grow closer to God.
+      </p>
 
-    <div class="verse-box" id="verse"></div>
+      <div class="verse-box" id="verse"></div>
 
-    <div class="hero-buttons">
-      <button class="store-button primary">Download on Play Store</button>
-      <button class="store-button">Download on App Store</button>
-    </div>
-  </div>
-</header>
-
-<section class="section reveal">
-  <div class="container">
-    <h2 class="section-title">Why People Love BibleScroll</h2>
-    <div class="features-grid">
-      <div class="feature-card reveal">
-        <div class="feature-icon">📖</div>
-        <h3 class="feature-title">Personalized Reading Plans</h3>
-        <p class="feature-text">Plans that fit your schedule—from devotionals to full Bible journeys.</p>
-      </div>
-      <div class="feature-card reveal">
-        <div class="feature-icon">🎥</div>
-        <h3 class="feature-title">Short, Impactful Videos</h3>
-        <p class="feature-text">Clear, powerful teachings that bring Scripture to life.</p>
-      </div>
-      <div class="feature-card reveal">
-        <div class="feature-icon">🤝</div>
-        <h3 class="feature-title">Faith Community</h3>
-        <p class="feature-text">Grow alongside believers through prayer and reflection.</p>
+      <div class="hero-buttons">
+        <a href="https://play.google.com/store/apps/details?id=com.biblescrol.app" target="_blank">
+          <button class="store-button primary">Download on Play Store</button>
+        </a>
+        <a href="https://apps.apple.com/us/app/biblescrol-scrol-the-word/id6757822061" target="_blank">
+          <button class="store-button">Download on App Store</button>
+        </a>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-<section class="testimonials reveal">
-  <div class="container">
-    <h2 class="section-title">Lives Being Transformed</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial reveal">
-        <p class="quote">“BibleScroll helped me stay consistent for the first time.”</p>
-        <p class="author">— Sarah O.</p>
-      </div>
-      <div class="testimonial reveal">
-        <p class="quote">“It’s like having a Bible teacher with me every day.”</p>
-        <p class="author">— David E.</p>
-      </div>
-      <div class="testimonial reveal">
-        <p class="quote">“Simple, deep, and spiritually refreshing.”</p>
-        <p class="author">— Chioma N.</p>
+  <section class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Why People Love BibleScrol</h2>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">📖</div>
+          <h3 class="feature-title">Personalized Reading Plans</h3>
+          <p class="feature-text">Plans that fit your schedule—from devotionals to full Bible journeys.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🎥</div>
+          <h3 class="feature-title">Short, Impactful Videos</h3>
+          <p class="feature-text">Clear, powerful teachings that bring Scripture to life.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🤝</div>
+          <h3 class="feature-title">Faith Community</h3>
+          <p class="feature-text">Grow alongside believers through prayer and reflection.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="final-cta reveal">
-  <div class="container">
-    <h2 class="section-title">Begin Your Bible Journey Today</h2>
-    <p style="max-width:720px;margin:0 auto 48px;color:var(--text-muted);font-size:1.25rem;">
-      Just a few intentional minutes a day can reshape your spiritual life.
-    </p>
-    <div class="hero-buttons">
-      <button class="store-button primary">Download on Play Store</button>
-      <button class="store-button">Download on App Store</button>
+  <section class="testimonials reveal">
+    <div class="container">
+      <h2 class="section-title">Lives Being Transformed</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial reveal">
+          <p class="quote">“BibleScrol helped me stay consistent for the first time.”</p>
+          <p class="author">— Sarah O.</p>
+        </div>
+        <div class="testimonial reveal">
+          <p class="quote">“It’s like having a Bible teacher with me every day.”</p>
+          <p class="author">— David E.</p>
+        </div>
+        <div class="testimonial reveal">
+          <p class="quote">“Simple, deep, and spiritually refreshing.”</p>
+          <p class="author">— Chioma N.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <div class="container">
-    <p>© 2026 BibleScroll. All rights reserved.</p>
-    <p style="margin-top:16px;">
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Service</a>
-    </p>
-  </div>
-</footer>
+  <section class="final-cta reveal">
+    <div class="container">
+      <h2 class="section-title">Begin Your Bible Journey Today</h2>
+      <p style="max-width:720px;margin:0 auto 48px;color:var(--text-muted);font-size:1.25rem;">
+        Just a few intentional minutes a day can reshape your spiritual life.
+      </p>
+      <div class="hero-buttons">
 
-<!-- ================= SCRIPTS ================= -->
-<script>
-  // Scroll-triggered animations
-  const reveals = document.querySelectorAll('.reveal');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) entry.target.classList.add('active');
-    });
-  }, { threshold: 0.15 });
 
-  reveals.forEach(el => observer.observe(el));
+        <a href="https://play.google.com/store/apps/details?id=com.biblescrol.app" target="_blank">
+          <button class="store-button primary">Download on Play Store</button>
+        </a>
+        <a href="https://apps.apple.com/us/app/biblescrol-scrol-the-word/id6757822061" target="_blank">
+          <button class="store-button">Download on App Store</button>
+        </a>
+      </div>
+    </div>
+  </section>
 
-  // Scripture verse transitions
-  const verses = [
-    "“Your word is a lamp to my feet and a light to my path.” — Psalm 119:105",
-    "“Be still, and know that I am God.” — Psalm 46:10",
-    "“Faith comes from hearing the message.” — Romans 10:17",
-    "“Draw near to God, and He will draw near to you.” — James 4:8"
-  ];
+  <footer>
+    <div class="container">
+      <p>© 2026 BibleScrol. All rights reserved.</p>
+      <p style="margin-top:16px;">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
 
-  const verseEl = document.getElementById('verse');
-  let index = 0;
+  <!-- ================= SCRIPTS ================= -->
+  <script>
+    // Scroll-triggered animations
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('active');
+      });
+    }, { threshold: 0.15 });
 
-  function rotateVerse() {
-    verseEl.style.opacity = 0;
-    setTimeout(() => {
-      verseEl.textContent = verses[index];
-      verseEl.style.opacity = 1;
-      index = (index + 1) % verses.length;
-    }, 600);
-  }
+    reveals.forEach(el => observer.observe(el));
 
-  rotateVerse();
-  setInterval(rotateVerse, 5000);
-</script>
+    // Scripture verse transitions
+    const verses = [
+      "“Your word is a lamp to my feet and a light to my path.” — Psalm 119:105",
+      "“Be still, and know that I am God.” — Psalm 46:10",
+      "“Faith comes from hearing the message.” — Romans 10:17",
+      "“Draw near to God, and He will draw near to you.” — James 4:8"
+    ];
+
+    const verseEl = document.getElementById('verse');
+    let index = 0;
+
+    function rotateVerse() {
+      verseEl.style.opacity = 0;
+      setTimeout(() => {
+        verseEl.textContent = verses[index];
+        verseEl.style.opacity = 1;
+        index = (index + 1) % verses.length;
+      }, 600);
+    }
+
+    rotateVerse();
+    setInterval(rotateVerse, 5000);
+  </script>
 
 </body>
+
 </html>
